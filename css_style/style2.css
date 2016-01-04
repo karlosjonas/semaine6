@@ -33,14 +33,63 @@ header{
     margin-right: 10px;
 }
 
+/*container*/
 
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+    
+}
 
+/* fleches*/
+.arrow {
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+    margin-top: 24px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/arrow01.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    
+}
 
- 
-[class*="col-"], footer{
+.thin {
+    background-image: url(../images/arrow02.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.inverse {
+    background-image: url(../images/arrow01grey.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.link:hover .arrow {
+    background-image: url(../images/arrow01grey.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.link:hover .inverse {
+     background-image: url(../images/arrow01.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.link:hover .thin {
+    background-image: url(../images/arrow02grey.png);
+      background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+[class*="col-"] {
  
   border: 2px solid black;
-  border-radius: 6px;
-  line-height: 40px;
- 
 }
+  
+ 
