@@ -1,0 +1,27 @@
+/*header*/
+
+header{
+    background-color: #82C8D8;
+    height: 100px;
+    margin-bottom: 3px;
+}
+
+.title {
+    padding: 20px;
+}
+
+.img_header {
+    width: 50px;
+    height:50px;
+    float: left;
+}
+
+.left {
+    float: left;
+    margin-left: 10px;
+}
+
+.right {
+    float: right;
+    margin-right: 10px;
+}
